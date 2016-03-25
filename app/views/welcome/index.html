@@ -1,0 +1,54 @@
+<% extends "layouts/layout.html" %>
+
+<% block content %>
+<style type="text/css">
+	.image-stretch {
+		background-image: url('./images/stretch.jpg');
+		background-position: 50% 50%;
+		background-size: cover;
+		min-height: 200px;
+
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+	}
+
+	.smooth-operator {
+		transition-duration: 250ms;
+		transition-property: height;
+	}
+
+	.content-spacer {
+		height: 180px !important;
+	}
+
+	.content-area {
+		background: #fff !important;
+	}
+</style>
+
+<div class="image-stretch"></div>
+<div class="scroll-parent">
+	<div>
+		<div class="content-spacer"></div>
+		<div class="content-area">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget venenatis orci, vitae faucibus erat. Pellentesque dictum malesuada ex, sed vulputate dolor pellentesque et. Quisque dignissim tempor tristique. Suspendisse ullamcorper justo urna, ac sollicitudin ex condimentum id. Nunc pulvinar turpis sed lacinia porttitor. Aliquam id laoreet turpis. Vivamus tempus aliquet tortor at posuere. Curabitur molestie sem ac nisl convallis, at efficitur lectus molestie. Aenean molestie, ligula eu semper rutrum, sapien justo ornare orci, quis condimentum ex odio non orci. Ut ornare, nisi a blandit fringilla, neque diam euismod massa, in sagittis purus leo vitae lorem. Donec accumsan augue sed felis tristique vehicula. Sed porttitor nisi quis lobortis fringilla. Praesent tempus lectus dolor, nec varius orci malesuada non.
+			</p>
+			<p>
+				Pellentesque ipsum metus, imperdiet blandit viverra ut, tincidunt id nunc. Sed odio magna, facilisis porttitor sapien et, hendrerit vestibulum justo. Sed aliquet magna neque, sed commodo nisi malesuada at. Proin tristique malesuada turpis, non condimentum ipsum fermentum quis. Suspendisse nec ante ultricies, laoreet libero in, tincidunt metus. Proin porta dolor nec ex tincidunt sagittis. Aenean lobortis augue nec varius pretium. In dapibus ut orci eu congue. Proin feugiat lectus a dui facilisis posuere. Nam imperdiet sapien vitae est finibus, sit amet mattis diam interdum. Vivamus feugiat tristique risus eget laoreet. Aenean pretium lectus quis mauris hendrerit pellentesque.
+			</p>
+			<p>
+				Praesent vitae venenatis risus. Nulla facilisi. Curabitur congue neque vel nulla lobortis sodales. Proin pulvinar in lectus quis mollis. Duis ut convallis est, at auctor neque. Integer lacinia, ex non pulvinar viverra, magna enim consequat massa, ac gravida turpis nisl at metus. Nunc dictum gravida mauris, nec vestibulum felis auctor vel. Donec aliquam orci id erat tempor consectetur. Curabitur in tellus neque. Maecenas libero turpis, viverra vel sem a, mattis mattis eros. Curabitur nunc nibh, luctus fermentum scelerisque mattis, porta quis diam.
+			</p>
+			<p>
+				Nulla varius lectus sed ipsum euismod, at commodo elit consectetur. Maecenas at mauris purus. Nam vulputate tortor nec pretium vulputate. Curabitur commodo efficitur leo vitae sagittis. Cras scelerisque fermentum venenatis. Donec quis nisi eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+			</p>
+			<p>
+				Praesent eget lacus vulputate, suscipit velit vitae, sollicitudin lorem. In ornare interdum consectetur. Integer condimentum dapibus tincidunt. Sed imperdiet velit dolor, ac malesuada sem pretium et. Nulla at purus vestibulum, sollicitudin tellus eget, egestas risus. Nunc vel nisl imperdiet, commodo elit eget, viverra ante. Etiam commodo mollis rhoncus. Aliquam massa neque, porta in neque vitae, consectetur sodales tellus. Suspendisse malesuada faucibus leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras magna nulla, ultrices id sem eu, efficitur feugiat nunc. Nulla ornare blandit ante vitae consectetur.
+			</p>
+		</div>
+	</div>
+</div>
+<% endblock %>
