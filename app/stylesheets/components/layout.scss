@@ -12,15 +12,6 @@ html, body {
 	padding: 0;
 }
 
-$ios-header-padding: 20px;
-
-.app-header-spacer {
-
-	.ios-header & {
-		height: $ios-header-padding;
-	}
-}
-
 .app-content-target {
 	height: 100%;
 }
@@ -30,13 +21,4 @@ $ios-header-padding: 20px;
 	overflow-y: scroll;
 	-webkit-overflow-scrolling: touch;
 	position: relative;
-
-	.ios-header & {
-		height: calc(100% - #{$ios-header-padding});
-	}
-
-	.content-spacer {
-		height: 45px;
-	}
-
 }

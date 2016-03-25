@@ -9,6 +9,12 @@
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "me.k3r.stretchyheader"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "me.k3r.stretchyheader"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "me.k3r.stretchyheader"
         }
     },
     "dependent_plugins": {}

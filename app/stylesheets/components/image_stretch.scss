@@ -1,0 +1,25 @@
+.image-stretch {
+	background-image: url('../images/stretch.jpeg');
+	background-position: 50% 50%;
+	background-size: cover;
+	height: 200px;
+
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+.smooth-operator {
+	transition-duration: 250ms;
+	transition-property: height;
+}
+
+.content-spacer {
+	height: 180px;
+}
+
+.content-area {
+	background: #fff;
+	padding: 6px 10px;
+}
